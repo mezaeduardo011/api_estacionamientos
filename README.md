@@ -33,7 +33,7 @@ Es importante mensionar que se usa el microframwrork llamado Slim Framework en s
 ## Estructura de Directorio de la Carpeta Configuracion ###
 
 ### Archivo configuraracion de apache api.Catatumbo
-*/config/
+* /config/
 *	app.ini
 *	database.ini
 *	system.ini

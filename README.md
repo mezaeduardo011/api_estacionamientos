@@ -19,13 +19,13 @@ Es importante mensionar que se usa el microframwrork llamado Slim Framework en s
 ### Contiene las lib necesarias para su funcionamiento ejemplos: Slim
 
 ```[terminal]
-*\config
-*\lib
-*\log
-*\modulos
-*\public
-*\src
-*\template
+\config
+\lib
+\log
+\modulos
+\public
+\src
+\template
 ```
 
 
@@ -37,14 +37,14 @@ Es importante mensionar que se usa el microframwrork llamado Slim Framework en s
 *	app.ini
 *	database.ini
 *	system.ini
-*
+
 
 
 
 ### Archivo de Indicaciones del Proyecto ###
 /catatumbo/README.md
 
-* [_author](www.gregoriobolivar.com.ve)
+ [_author](www.gregoriobolivar.com.ve)
 
 ### INSTALL
 

@@ -49,8 +49,8 @@ Es importante mensionar que se usa el microframwrork llamado Slim Framework en s
 ### INSTALL
 
 Proceso de instalación de Api-Rest
-* git clone https://tuosuario@bitbucket.org/hackemate/catatumbo.git
-* cd  catatumbo
-* composer install
-* tocken: 6dcf4c66f2ca79b6634f25bc046fa096, secret:f065e869d5fb6e21216701d6e45e46a7
+###### git clone https://tuosuario@bitbucket.org/hackemate/catatumbo.git
+###### cd  catatumbo
+###### composer install
+###### tocken: 6dcf4c66f2ca79b6634f25bc046fa096, secret:f065e869d5fb6e21216701d6e45e46a7
 

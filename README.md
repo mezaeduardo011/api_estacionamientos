@@ -19,13 +19,13 @@ Es importante mensionar que se usa el microframwrork llamado Slim Framework en s
 ### Contiene las lib necesarias para su funcionamiento ejemplos: Slim
 
 ```[terminal]
-\config
-\lib
-\log
-\modulos
-\public
-\src
-\template
+*\config
+*\lib
+*\log
+*\modulos
+*\public
+*\src
+*\template
 ```
 
 
@@ -33,11 +33,11 @@ Es importante mensionar que se usa el microframwrork llamado Slim Framework en s
 ## Estructura de Directorio de la Carpeta Configuracion ###
 
 ### Archivo configuraracion de apache api.Catatumbo
-/config/
-	app.ini
-	database.ini
-	system.ini
-
+*/config/
+*	app.ini
+*	database.ini
+*	system.ini
+*
 
 
 
@@ -49,8 +49,8 @@ Es importante mensionar que se usa el microframwrork llamado Slim Framework en s
 ### INSTALL
 
 Proceso de instalación de Api-Rest
-. git clone https://tuosuario@bitbucket.org/hackemate/catatumbo.git
-. cd  catatumbo
-. composer install
-. tocken: 6dcf4c66f2ca79b6634f25bc046fa096, secret:f065e869d5fb6e21216701d6e45e46a7
+* git clone https://tuosuario@bitbucket.org/hackemate/catatumbo.git
+* cd  catatumbo
+* composer install
+* tocken: 6dcf4c66f2ca79b6634f25bc046fa096, secret:f065e869d5fb6e21216701d6e45e46a7
 

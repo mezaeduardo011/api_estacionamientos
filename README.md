@@ -1,8 +1,12 @@
 # Catatumbo 
 Catatumbo es una un componente completo que te permite desarrollar tus Apis-Rest de una forma sensilla y ordenada,
-ademas siguiendo las instrucciones podrás optener una documentación de tus servicios de una forma bien detallada y excelente para la vista del usuario.
+ademas siguiendo las estructura de notaciones del componente podrás optener una documentación de tus servicios de una forma bien detallada y excelente para la vista del usuario.
 
-Se ha venido mejorando con el objetivo de que se pueda integrar en cualquier proyecto, la capa de datos esta badada en PDO, esta esrito basado en el satandar PSR4 y PSR7 para la parte de manejar las respuestas del protocolo http.
+El objetivo de que se pueda integrar en cualquier proyecto, la capa de datos esta badada en PDO, esta esrito basado en el satandares:
+
+	
+	PSR-4  Estándar de carga automática
+	PSR-7  Interfaz de mensajes HTTP.
 
 
 Es importante mensionar que se usa el microframwrork llamado Slim Framework en su version 3.

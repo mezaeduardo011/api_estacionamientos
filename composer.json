@@ -1,14 +1,14 @@
 {
-    "name": "slim/slim-skeleton",
-    "description": "A Slim Framework skeleton application for rapid development",
-    "keywords": ["microframework", "rest", "router", "psr7"],
-    "homepage": "http://github.com/slimphp/Slim-Skeleton",
+    "name": "caribesTIC/catatumbo",
+    "description": "Catatumbo estructura de trabajo hacer trabajos en apis restFull, usando slim como core",
+    "keywords": ["Catatumbo", "RestFull", "estructura", "psr4", "psr7"],
+    "homepage": "https://github.com/CaribesTIC/catatumbo",
     "license": "MIT",
     "authors": [
         {
-            "name": "Josh Lockhart",
-            "email": "info@joshlockhart.com",
-            "homepage": "http://www.joshlockhart.com/"
+            "name": "Gregorio Bolivar",
+            "email": "info@gregoriobolivar.com",
+            "homepage": "http://www.gregoriobolivar.com/"
         }
     ],
     "require": {

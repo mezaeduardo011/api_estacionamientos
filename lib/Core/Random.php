@@ -1,7 +1,7 @@
 <?php
 namespace Catatumbo\Core;
   /**
-  * @propiedad:cut.co.ve
+  * @propiedad:Catatumbo
   * @Autor: Gregorio Bolivar
   * @email: elalconxvii@gmail.com
   * @Fecha de Creacion: 21/02/2012

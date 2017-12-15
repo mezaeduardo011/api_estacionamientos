@@ -33,7 +33,7 @@ interface Constant
     const MESSAGE_LIST_00 = "Sin registro asociado";
     const MESSAGE_HTTP200 = "200 OK";
     const MESSAGE_HTTP204 = "204 No hay contenido";
-    const MESSAGE_HTTP400 = '400 Error capa de Validacion'
+    const MESSAGE_HTTP400 = '400 Error capa de Validacion';
     const MESSAGE_HTTP501 = "401 Es obigatorio su autenticacion";
     const MESSAGE_HTTP404 = "404 Ruta no encontrada";
     const MESSAGE_HTTP500 = "500 Error Interno";

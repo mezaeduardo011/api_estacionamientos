@@ -12,18 +12,16 @@ class Loading implements Constant
 {
 	public function auth()
 	{
-    print_r($response);
 
-    $mw = function ($request, $response, $next) {
-    $response->getBody()->write('BEFORE');
-    $response = $next($request, $response);
-    $response->getBody()->write('AFTER');
-
-
-    return $response;
-};
+	    $mw = function ($request, $response, $next) {
+		    $response->getBody()->write('BEFORE');
+		    $response = $next($request, $response);
+		    $response->getBody()->write('AFTER');
+		    return $response;
+		};
         
 	}
+	
 	public  function init($app)
 	{
 		

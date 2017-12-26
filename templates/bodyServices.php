@@ -19,7 +19,7 @@
     </tr>
     <?php 
     $parameter=$common->getTabsParameter($item);
-    if(count($parameter)>0){
+    if(@count($parameter)>0){
       foreach ($parameter as $value){
         ?>
         <tr>

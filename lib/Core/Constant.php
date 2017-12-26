@@ -6,17 +6,19 @@ namespace Catatumbo\Core;
  * @Author: Gregorio Bolívar <elalconxvii@gmail.com>
  * @Author: Blog: <http://gbbolivar.wordpress.com>
  * @Creation Date: 25/07/2017
- * @version: 0.7
+ * @Creation Date: 26/12/2017
+ * @version: 0.8
  */
 
 interface Constant 
 {
 
+    const DIR_SRC = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR;
     const DIR_MODULE = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'modulos'.DIRECTORY_SEPARATOR;
     const DIR_CONFIG = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR."config".DIRECTORY_SEPARATOR;
     const DIR_THEME = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'Templates'.DIRECTORY_SEPARATOR;
 
-    const VERSION = "1.0";
+    const VERSION = "1.2";
     const FW = "Catatumbo 2";
 
 

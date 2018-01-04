@@ -169,7 +169,7 @@
 
       </div>
       <a class="btn" href="/" role="button">
-        <button type="button" class="btn btn-primary">Regregar</button>
+        <button type="button" class="btn btn-primary">Regresar</button>
       </a>
 
     </div>

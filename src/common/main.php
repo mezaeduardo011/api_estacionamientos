@@ -1,8 +1,7 @@
 <?php
 use Catatumbo\Core\Common;
 use Catatumbo\Core\Constant;
-use Catatumbo\Driverdb\Database;
-use Catatumbo\Driverdb\ManageDataService;
+use Catatumbo\Complements\Database\Base;
 use Slim\Http\Request;
 use Slim\Http\Response;
 
@@ -11,7 +10,8 @@ try {
     $common = new Common();
     $config = parse_ini_file(Constant::DIR_CONFIG.'app.ini', true);
 
-    $connec = new Database('catatumbo');
+    $connec = new Base('catatumbo');
+
     $module=$common->getFileExecute(__DIR__);
 
     $c = new \Slim\Container();
@@ -27,7 +27,14 @@ try {
             //return $handler($request, $response);
             $data = array('code' => 404, 'message'=> 'Pagina no encontrada.' );
             return $response->withJson($data, 404);
+        }elseif(405 === $response->getStatusCode()) {
+            // A 404 should be invoked
+            $handler = $c['notFoundHandler'];
+            //return $handler($request, $response);
+            $data = array('code' => 405, 'message'=> 'Método no permitido para esta solicitud.' );
+            return $response->withJson($data, 405);
         }
+
 
         // Any other request, pass on current response
         return $response->withStatus(200);

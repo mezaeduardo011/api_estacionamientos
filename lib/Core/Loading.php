@@ -1,5 +1,6 @@
 <?php
 namespace Catatumbo\Core;
+use Catatumbo\Core\Auth;
 /**
  * Clase encargada de gestionar todas la carga del sistema
  * @Author: Gregorio Bolívar <elalconxvii@gmail.com>
@@ -9,9 +10,12 @@ namespace Catatumbo\Core;
  */
 class Loading implements Constant
 {
+    public function __construct()
+    {
+        Auth::mainBasic('admin','admin');
+    }
     public function auth()
     {
-
         $mw = function ($request, $response, $next) {
             $response->getBody()->write('BEFORE');
             $response = $next($request, $response);

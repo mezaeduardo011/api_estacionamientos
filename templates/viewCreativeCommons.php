@@ -8,5 +8,5 @@ por <a xmlns:cc="http://creativecommons.org/ns#" href="http://catatumbo.com.ve" 
 webserver restfull</a> se distribuye bajo una 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.
 <br />Basada en una obra en 
-<a xmlns:dct="http://purl.org/dc/terms/" href="https://gbolivar_@bitbucket.org/hackemate/catatumbo.git" rel="dct:source">https://gbolivar_@bitbucket.org/hackemate/catatumbo.git</a>.
+<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/CaribesTIC/catatumbo.git" rel="dct:source">https://github.com/CaribesTIC/catatumbo.git</a>.
 </footer>

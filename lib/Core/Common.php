@@ -15,7 +15,7 @@ class Common implements Constant
 	}
 
 	public static function getFileExecute($dirExecute){
-		$result=explode('/', $dirExecute);
+		$result=explode(DIRECTORY_SEPARATOR, $dirExecute);
 		$ruta=end($result);
 		return $ruta;
 	}

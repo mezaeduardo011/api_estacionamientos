@@ -11,14 +11,17 @@ if (PHP_SAPI == 'cli-server') {
 
 require __DIR__ . DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
 
+
 session_start();
 
 // Instantiate the app
 $settings = require __DIR__ . DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'settings.php';
 
-
-
 $app = new \Slim\App($settings);
+
+// Elementos necesarios
+$dotenv = new \Dotenv\Dotenv(__DIR__,'..\\.env');
+$dotenv->load(); 
 
 // Set up dependencies
 require __DIR__ . DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_SEPARATOR.'dependencies.php';
@@ -31,3 +34,5 @@ require __DIR__ . DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'src'.DIRECTORY_S
 
 // Run app
 $app->run();
+
+  

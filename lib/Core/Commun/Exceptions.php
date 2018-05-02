@@ -14,7 +14,6 @@ use Catatumbo\Core\Console\Interprete;
 
 class Exceptions extends \Error implements \Throwable
 {
-    use SendMail;
     /**
      * Se encarga de leer los mensajes de exepciones
      * @param string $index indice del grupo de mensaje

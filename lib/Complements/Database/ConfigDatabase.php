@@ -4,7 +4,7 @@ namespace Catatumbo\Complements\Database;
  * Configuracion de las conexiones bb Hornero 4
  * @propiedad: Hornero 4
  * @utor: Gregorio Bolivar <elalconxvii@gmail.com>
- * @created: 10/01/2018
+ * @created: 02/05/2018
  * @version: 1.0
  */ 
 
@@ -37,13 +37,13 @@ trait ConfigDatabase
    // IP o HOST de comunicacion con el servidor de base de datos
     $this->host = 'localhost';
    // Puerto de comunicacion con el servidor de base de datos
-   $this->port = '3305';
+   $this->port = '1433';
    // Nombre base de datos
-   $this->db = 'LionsAsistencia';
+   $this->db = 'estacionamientos';
    // Usuario de acceso a la base de datos
    $this->user = 'sa';
    // Clave de acceso a la base de datos
-   $this->pass = 's3rv3r..*';
+   $this->pass = 'Jph135';
    // Codificacion de la base de datos
    $this->encoding = 'UTF-8';
    return $this;
